@@ -1,0 +1,9 @@
+struct Character {
+    name: String,
+    level: u32,
+    character_class: CharacterClass,
+    health: u32,
+    mana: u32,
+    experience: u64,
+    inventory: Vec<String>,
+}
